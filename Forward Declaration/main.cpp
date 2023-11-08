@@ -7,8 +7,15 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int add(int, int);
+
+int main()
+{
+    std::cout << add(8, 9) << '\n';
     return 0;
+}
+
+int add(int x, int y)
+{
+    return x+y;
 }
